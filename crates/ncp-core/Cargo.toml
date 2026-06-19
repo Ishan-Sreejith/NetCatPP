@@ -1,0 +1,35 @@
+[package]
+name = "ncp-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+chrono.workspace = true
+colored.workspace = true
+crossterm.workspace = true
+futures.workspace = true
+indicatif.workspace = true
+pnet.workspace = true
+ratatui.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sysinfo.workspace = true
+tokio.workspace = true
+tui-input.workspace = true
+
+async-compression.workspace = true
+dns-lookup.workspace = true
+dirs.workspace = true
+flate2.workspace = true
+hex.workspace = true
+ipnet.workspace = true
+once_cell.workspace = true
+pcap-file.workspace = true
+sha2.workspace = true
+tar.workspace = true
+tempfile.workspace = true
+tokio-util.workspace = true
+walkdir.workspace = true

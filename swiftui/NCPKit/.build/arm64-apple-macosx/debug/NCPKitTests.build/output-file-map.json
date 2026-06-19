@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/master.swiftdeps"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPKit/Tests/NCPKitTests/NCPKitTests.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/NCPKitTests.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/NCPKitTests.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/NCPKitTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/NCPKitTests.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/NCPKitTests.dia"
+  }
+}

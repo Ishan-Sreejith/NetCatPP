@@ -1,0 +1,793 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.xctest/Contents/MacOS/NCPKitPackageTests",
+      "packagePath" : "/Users/ishan/NetCat++/swiftui/NCPKit",
+      "productName" : "NCPKitPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/libncpffi.dylib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64/libncpffi.dylib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/libncpffi.dylib"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.NCPKit-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/sources",
+      "importPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/Generated/ncpffi.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/NCPClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/NCPModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/libncpffi.dylib"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NCPKit",
+      "moduleOutputPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules/NCPKit.swiftmodule",
+      "objects" : [
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/ncpffi.swift.o",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/NCPClient.swift.o",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/NCPModels.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include",
+        "-I",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+        "-module-cache-path",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-F",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/include/NCPKit-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ncpkit"
+      ],
+      "outputFileMapPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/ncpffi.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/NCPClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/NCPModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules/NCPKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/Generated/ncpffi.swift",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/NCPClient.swift",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/NCPModels.swift"
+      ],
+      "tempsPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.NCPKitPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.build/sources",
+      "importPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules/NCPKitTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/libncpffi.dylib"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NCPKitPackageTests",
+      "moduleOutputPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules/NCPKitPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-I",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+        "-Xcc",
+        "-fmodule-map-file=/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include",
+        "-module-cache-path",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-F",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.build/include/NCPKitPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ncpkit"
+      ],
+      "outputFileMapPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules/NCPKitPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.NCPKitTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/sources",
+      "importPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/Tests/NCPKitTests/NCPKitTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules/NCPKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/libncpffi.dylib"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NCPKitTests",
+      "moduleOutputPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules/NCPKitTests.swiftmodule",
+      "objects" : [
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/NCPKitTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-I",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+        "-Xcc",
+        "-fmodule-map-file=/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include",
+        "-module-cache-path",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-F",
+        "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ncpkit"
+      ],
+      "outputFileMapPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/NCPKitTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules/NCPKitTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ishan/NetCat++/swiftui/NCPKit/Tests/NCPKitTests/NCPKitTests.swift"
+      ],
+      "tempsPath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "NCPKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "NCPKit",
+      "-package-name",
+      "ncpkit",
+      "-c",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/Generated/ncpffi.swift",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/NCPClient.swift",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/NCPModels.swift",
+      "-I",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include",
+      "-I",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+      "-module-cache-path",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-F",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/include/NCPKit-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ncpkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "NCPKitPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "NCPKitPackageTests",
+      "-package-name",
+      "ncpkit",
+      "-c",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-I",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+      "-Xcc",
+      "-fmodule-map-file=/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include",
+      "-module-cache-path",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-F",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.build/include/NCPKitPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ncpkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "NCPKitTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "NCPKitTests",
+      "-package-name",
+      "ncpkit",
+      "-c",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Tests/NCPKitTests/NCPKitTests.swift",
+      "-I",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-I",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64",
+      "-Xcc",
+      "-fmodule-map-file=/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/ncpffiFFI/include",
+      "-module-cache-path",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-F",
+      "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ncpkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "NCPKit" : [
+      "ncpffiBinary",
+      "ncpffiFFI"
+    ],
+    "NCPKitPackageTests" : [
+      "NCPKitTests",
+      "NCPKit",
+      "ncpffiBinary",
+      "ncpffiFFI"
+    ],
+    "NCPKitTests" : [
+      "NCPKit",
+      "ncpffiBinary",
+      "ncpffiFFI"
+    ],
+    "ncpffiFFI" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/Generated/ncpffi.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/NCPClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/NCPModels.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/sources"
+    },
+    "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.build/sources"
+    },
+    "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/NCPClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/NCPModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKit.build/ncpffi.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/NCPKitTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ishan/NetCat++/swiftui/NCPKit/Tests/NCPKitTests/NCPKitTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/NCPKitTests.build/sources"
+    },
+    "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/ishan/NetCat++/swiftui/NCPKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

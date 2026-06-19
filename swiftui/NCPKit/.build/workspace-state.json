@@ -1,0 +1,31 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : {
+          "xcframework" : {
+
+          }
+        },
+        "packageRef" : {
+          "identity" : "ncpkit",
+          "kind" : "root",
+          "location" : "/Users/ishan/NetCat++/swiftui/NCPKit",
+          "name" : "NCPKit"
+        },
+        "path" : "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "ncpffiBinary"
+      }
+    ],
+    "dependencies" : [
+
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

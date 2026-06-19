@@ -1,0 +1,3 @@
+module NCPKit {
+    header "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/include/NCPKit-Swift.h"
+}

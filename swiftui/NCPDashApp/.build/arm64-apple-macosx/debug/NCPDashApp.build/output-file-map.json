@@ -1,0 +1,96 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/master.swiftdeps"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/App.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/App.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/App.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/App~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/App.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/App.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/Components/MetricCard.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/MetricCard.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/MetricCard.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/MetricCard~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/MetricCard.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/MetricCard.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/Components/StyledTextField.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/StyledTextField.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/StyledTextField.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/StyledTextField~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/StyledTextField.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/StyledTextField.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/ContentView.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/ContentView.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/ContentView.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/ContentView.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/Models/AppModels.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppModels.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppModels.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppModels.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppModels.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/Theme/AppTheme.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppTheme.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppTheme.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppTheme.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppTheme.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/ViewModels/AppViewModel.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppViewModel.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppViewModel.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppViewModel.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/AppViewModel.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/Views/DashboardView.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/DashboardView.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/DashboardView.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/DashboardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/DashboardView.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/DashboardView.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/Views/HTTPView.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/HTTPView.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/HTTPView.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/HTTPView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/HTTPView.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/HTTPView.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/Views/MessengerView.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/MessengerView.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/MessengerView.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/MessengerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/MessengerView.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/MessengerView.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/Views/PacketScannerView.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/PacketScannerView.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/PacketScannerView.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/PacketScannerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/PacketScannerView.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/PacketScannerView.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/Views/ScannerView.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/ScannerView.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/ScannerView.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/ScannerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/ScannerView.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/ScannerView.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPDashApp/NCPDashApp/Views/SettingsView.swift": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/SettingsView.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/debug/NCPDashApp.build/SettingsView.dia"
+  }
+}

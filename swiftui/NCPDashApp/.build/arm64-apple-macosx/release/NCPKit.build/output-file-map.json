@@ -1,0 +1,25 @@
+{
+  "": {
+    "dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/NCPKit.d",
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/NCPKit.o",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/master.swiftdeps"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/Generated/ncpffi.swift": {
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/ncpffi.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/ncpffi~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/ncpffi.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/ncpffi.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/NCPClient.swift": {
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/NCPClient.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/NCPClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/NCPClient.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/NCPClient.dia"
+  },
+  "/Users/ishan/NetCat++/swiftui/NCPKit/Sources/NCPKit/NCPModels.swift": {
+    "object": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/NCPModels.swift.o",
+    "swiftmodule": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/NCPModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/NCPModels.swiftdeps",
+    "diagnostics": "/Users/ishan/NetCat++/swiftui/NCPDashApp/.build/arm64-apple-macosx/release/NCPKit.build/NCPModels.dia"
+  }
+}

@@ -1,0 +1,52 @@
+.TH NCP 1 "April 2026" "ncp 0.2.0" "NetCat++ Manual"
+.SH NAME
+ncp \- NetCat++ networking toolkit with dashboard and system metrics
+.SH SYNOPSIS
+.B ncp
+[SUBCOMMAND] [OPTIONS]
+.SH DESCRIPTION
+ncp combines scanning, transfer, text messaging, HTTP testing, sniffing, and a ratatui dashboard.
+.SH SUBCOMMANDS
+.TP
+.B ncp scan <host>
+Scan a host for open ports.
+.TP
+.B ncp send <host> <port> <path>
+Send file/directory payload.
+.TP
+.B ncp receive <port>
+Receive file/directory payload.
+.TP
+.B ncp text-send <host> <port> <message>
+Send plain text directly over TCP.
+.TP
+.B ncp text-listen <port>
+Listen for plain text over TCP.
+.TP
+.B ncp http <url>
+HTTP request inspector.
+.TP
+.B ncp sniff
+Capture packets.
+.TP
+.B ncp dash
+Open live dashboard.
+.SH TEXT OPTIONS
+.TP
+.B --repeat <N>
+Repeat sending message N times.
+.TP
+.B --interval <duration>
+Interval between sends, e.g. 500ms, 1s.
+.TP
+.B --keep-alive
+Keep text listener open for multiple messages.
+.SH DASHBOARD
+The dashboard includes packet traffic, throughput, top hosts, active connections, CPU/memory, top processes, and best-effort iGPU usage on macOS.
+.SH PERMISSIONS
+Packet capture typically requires elevated privileges:
+.B sudo ncp sniff
+or
+.B sudo ncp dash
+.SH ANDROID
+Android builds provide system panels. Raw packet capture/sniffer paths are disabled in this build.
