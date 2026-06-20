@@ -1,1 +1,24 @@
+# Rust build artifacts
 target/
+
+# Swift build artifacts
+swiftui/NCPDashApp/.build/
+swiftui/NCPKit/.build/
+
+# App bundle
+dist/
+
+# macOS
+.DS_Store
+
+# Generated FFI bindings (rebuilt by scripts/build_swift_bridge.sh)
+swiftui/NCPKit/Sources/NCPKit/Generated/
+
+# Copied dylib inside xcframework (regenerated from target/release/)
+swiftui/NCPKit/Sources/NCPKit.xcframework/**/*.dylib
+
+# CLI binary
+nc++
+
+# Debug artifacts
+192.168.68.104:63918

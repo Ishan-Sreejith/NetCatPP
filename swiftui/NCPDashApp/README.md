@@ -1,9 +1,15 @@
-# NCPDashApp (SwiftUI Frontend)
+# NCPDashApp
 
-This folder contains a starter SwiftUI frontend shell for NetCat++.
+SwiftUI frontend for NetCat++. Built with NCPKit (Rust FFI via UniFFI).
 
-## Next steps
+### Build
 
-1. Run `scripts/build_swift_bridge.sh` to generate Swift bindings.
-2. Add `swiftui/NCPKit` as a local Swift package in Xcode.
-3. Build a native dashboard UI that consumes `NCPClient` APIs.
+```bash
+# From project root: build Rust dylib first
+bash scripts/build_swift_bridge.sh
+
+# Then build this app
+cd swiftui/NCPDashApp
+swift build
+swift run
+```

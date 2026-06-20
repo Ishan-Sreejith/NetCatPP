@@ -1,16 +1,13 @@
 # NetCat++
 
-A modern cross-platform networking toolkit with a Rust backend, CLI, and native SwiftUI frontend.
+A cross-platform networking toolkit with a Rust backend, CLI, and native SwiftUI frontend.
 
 - Port scanning (TCP/UDP, subnet ping sweep)
 - File transfer with optional compression & encryption
 - Direct TCP text messaging
 - HTTP client (GET, POST, PUT, PATCH, DELETE)
-- Live packet sniffer (requires `sudo`)
+- Live packet sniffer (requires root)
 - System metrics dashboard (TUI + SwiftUI)
-- macOS native app (SwiftUI via UniFFI/FFI bridge)
-
----
 
 ## Workspace Layout
 
@@ -19,12 +16,13 @@ A modern cross-platform networking toolkit with a Rust backend, CLI, and native 
 | `crates/ncp-core` | Core networking backend (scanner, transfer, HTTP, sniffer, dashboard, system metrics) |
 | `crates/ncp-cli` | `ncp` CLI binary |
 | `crates/ncp-ffi` | UniFFI bridge for native frontends (Swift, Android) |
+| `crates/ncp-capture-helper` | Standalone privileged helper for packet capture |
+| `tools/uniffi-gen` | UniFFI binding generator for the FFI bridge |
 | `swiftui/NCPKit` | Swift package wrapping Rust FFI bindings |
 | `swiftui/NCPDashApp` | Native SwiftUI macOS app |
+| `scripts/` | Build and packaging scripts |
 
----
-
-## Quick Start — CLI
+## CLI
 
 ### Install
 
@@ -35,15 +33,15 @@ cp target/release/ncp ~/.local/bin/
 
 ### Usage
 
-```bash
+```
 # Port scan
 ncp scan example.com --range 1-1000 --timeout 500ms
-ncp scan 192.168.1.1 --range 22,80,443           # specific ports
-ncp scan 192.168.1.0/24 --subnet 192.168.1.0/24  # ping sweep
+ncp scan 192.168.1.1 --range 22,80,443
+ncp scan 192.168.1.0/24 --subnet 192.168.1.0/24
 
 # HTTP
 ncp http https://api.example.com
-ncp http https://httpbin.org/post -X POST --body '{"key":"value"}' -H "Content-Type: application/json"
+ncp http https://httpbin.org/post -X POST --body '{"key":"value"}'
 
 # File transfer
 ncp send 192.168.1.100 9000 ./myfile.txt --compress
@@ -53,77 +51,60 @@ ncp receive 9000
 ncp text-listen 9000 --keep-alive
 ncp text-send 127.0.0.1 9000 "hello" --repeat 3 --interval 500ms
 
-# Packet capture (requires sudo)
+# Packet capture (requires root)
 sudo ncp sniff --interface en0
 
-# TUI dashboard (requires sudo for packet view)
+# TUI dashboard
 sudo ncp dash
 ```
 
----
-
 ## SwiftUI macOS App
 
-### Build & Run (SPM)
+### Build & Run
 
 ```bash
-# 1. Build Rust FFI library
-cargo build --release -p ncp-ffi
+# One-time: build Rust FFI and regenerate Swift bindings
+bash scripts/build_swift_bridge.sh
 
-# 2. Copy dylib
-cp target/release/libncpffi.dylib swiftui/NCPKit/Sources/
-cp target/release/libncpffi.dylib swiftui/NCPKit/Sources/NCPKit.xcframework/macos-arm64/
-
-# 3. Run the app
+# Build and run the SwiftUI app
 cd swiftui/NCPDashApp
-swift run -c release
+swift run
 ```
 
-### One-command launcher
+### Quick start
 
 ```bash
 ./start.sh            # build & run in debug mode
 ./start.sh sudo       # run with sudo for packet capture
 ```
 
-### Package as .app bundle
+### Package as .app
 
 ```bash
-./scripts/package_app.sh
+bash scripts/package_app.sh
 open dist/NetCat++.app
 ```
 
-### Open in Xcode
+### Packet capture
 
-Add `swiftui/NCPKit` and `swiftui/NCPDashApp` as local Swift packages, then build & run.
+The app uses FFI-based capture (works if run with sudo). For normal use, run the helper binary with root:
 
----
+```bash
+# Build the helper (one-time)
+cargo build --release -p ncp-capture-helper
+
+# Run it alongside the app
+sudo target/release/ncp-capture-helper --interface en0 > /tmp/ncp-capture-output
+```
+
+The app reads packets from `/tmp/ncp-capture-output` automatically while capture is active.
 
 ## Permissions
 
-Packet capture requires root:
+Packet capture requires root. The app requests escalation or you can run the helper manually as described above.
 
-```bash
-sudo ncp sniff --interface en0
-sudo ncp dash
-```
+## Build Requirements
 
----
-
-## All Bugs Fixed / v1.0.0
-
-- ✅ CPU & memory values now accurate (persistent system stats — continuous measurement window)
-- ✅ Memory pressure parsing fixed (removed broken `-Q` flag)
-- ✅ Port ranges support comma-separated lists (e.g. `22,80,443`)
-- ✅ Swift Package Manager links FFI dylib correctly via xcframework binary target
-- ✅ Packet data JSON decoding fixed (`protocol` → `protocol_` coding key)
-- ✅ Release .app bundle with portable dylib linking
-- ✅ Zero compiler warnings across all crates
-
----
-
-## Android Compatibility
-
-- `ncp-core` is portable and ready for Android reuse.
-- Packet capture & TUI dashboard are disabled on Android with explicit fallbacks.
-- System/process snapshot APIs work on all platforms.
+- Rust (latest stable)
+- Xcode 15+ (for SwiftUI app)
+- macOS 13+ (for SwiftUI app)

@@ -1,4 +1,0 @@
-module ncpffiFFI {
-    header "ncpffiFFI.h"
-    export *
-}
