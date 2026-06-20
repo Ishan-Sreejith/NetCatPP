@@ -24,7 +24,15 @@ A cross-platform networking toolkit with a Rust backend, CLI, and native SwiftUI
 
 ## CLI
 
+
 ### Install
+
+Cargo Crate:
+
+```bash
+cargo install ncpp
+```
+Source Code:
 
 ```bash
 cargo build --release -p ncp
